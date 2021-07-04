@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,8 @@ section{
 .top-banner{
     background-image: url("banner.png");
     background-repeat: no-repeat;
+}
+.flexible-container{
+    padding-left: 5%;
+    display: inline-block
 }
