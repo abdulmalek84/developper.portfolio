@@ -51,5 +51,19 @@ display: flex;
     background-image: url(Untitled-1.png);
     background-repeat: no-repeat;
     background-position: left;
-    border-left: 10px solid;
+    
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
