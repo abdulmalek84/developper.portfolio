@@ -5,19 +5,22 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color: orange;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
+.flexible-container{
+padding-left: 5%;
+display: flex;
 }
 .half-width{
-    width: 50%;
-    padding-left: 5%;
+    width: 55%;
+    
 }
 .half-width img{
-    width: 80%;
+    width: 75%;
 }
 .link-button{
     text-decoration: none;
@@ -32,7 +35,21 @@ section{
     background-image: url("banner.png");
     background-repeat: no-repeat;
 }
-.flexible-container{
-    padding-left: 5%;
-    display: inline-block
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+
+}
+.item{
+    color: orange;
+}
+.experience-area{
+    background-image: url(Untitled-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left: 10px solid;
 }
